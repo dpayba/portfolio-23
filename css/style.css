@@ -1,0 +1,57 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+    
+    --clr-beige: #e6d9d0;
+    --clr-tan: #dbcfbf;
+    --clr-light-brown: #cbbaab;
+    --clr-taupe: #c3b9b2;
+    --clr-brown: #afa094;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-brown);
+  }
+
+
+#start-bg {
+    background-image: url(../images/beach_1900.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vh;
+    z-index: 1;
+    position: absolute;
+}
+
+#about-me {
+    z-index: 0;
+    position: relative;
+} */
+img {
+    width: 100%;  /* stretch the image to fill the container horizontally */
+    height: auto;  /* keep the original aspect ratio of the image */
+    object-fit: cover;  /* stretch the image to fill the container horizontally and vertically */
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-brown);
+  }
+
+.section {
+    position: relative;
+    top: 100%;
+}
