@@ -5,7 +5,7 @@
     <title>Website</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css"
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -28,27 +28,105 @@
         </div>
     </div>
 
-    <section class="about-me" id="about">
-      <h1>About Me</h1>
-      <p>
-        Hi there! My name is Dane Payba and I am a computer science student at the University of California, Los Angeles (UCLA) with a strong foundation in machine learning, artificial intelligence, and web development. 
-        I am projected in languages such as Python, C++, and Java and have experience with various technologies including TensorFlow, MongoDB, and Kubernetes.
-    </p>
-    <p>
-        I have gained valuable experience through internships at companies such as Google, KBR Inc, and Daily Bruin, where I have had the opportunity to develop software for scheduling tasks, implement methods for data retrieval, and create website redesigns. 
-        In my current role as an incoming software engineering intern at Google, I am excited to continue learning and growing in my career.
-    </p>
-    <p>
-        In addition to my professional experience, I am passionate about using my projects to make a positive impact and have participated in extracurricular activities such as organizing robotics courses for elementary school students and managing multiple student-led projects.
-    </p>
-    <p>
-        I have also received recognition for my work, including being awarded the Hawaii Society of Professional Engineers Scholar in 2020 and placing first in the United States Congressional App Challenge in 2018.
-    </p>
-    <p>
-        Thank you for considering my profile. Please feel free to reach out if you would like to connect or learn more about my education and experience.
-      </p>
+    <section class="abt">
+        <div class="about-image">
+            <img src="images/dane2.jpg" alt="" class="about-img">
+        </div>
+        <p>
+            Hi there! My name is Dane Payba and I am a computer science student at the University of California, Los Angeles (UCLA) with a strong foundation in machine learning, artificial intelligence, and web development. 
+            I am projected in languages such as Python, C++, and Java and have experience with various technologies including TensorFlow, MongoDB, and Kubernetes. <br>
+            I have gained valuable experience through internships at companies such as Google, KBR Inc, and Daily Bruin, where I have had the opportunity to develop software for scheduling tasks, implement methods for data retrieval, and create website redesigns. 
+            In my current role as an incoming software engineering intern at Google, I am excited to continue learning and growing in my career.
+        <br>
+            In addition to my professional experience, I am passionate about using my projects to make a positive impact and have participated in extracurricular activities such as organizing robotics courses for elementary school students and managing multiple student-led projects.
+        <br>
+            I have also received recognition for my work, including being awarded the Hawaii Society of Professional Engineers Scholar in 2020 and placing first in the United States Congressional App Challenge in 2018.
+       <br>
+            Thank you for considering my profile. Please feel free to reach out if you would like to connect or learn more about my education and experience.
+          </p>
     </section>
-</br></br></br>
+
+    
+    <section class="interests-body">
+        <h2>Fields of Interest</h1>
+            <div class="interests">
+        
+            <div class="box box1">
+                <div class="content">
+                    <h1>Machine Learning</h1>
+                    <p> 
+                         Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
+                         Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
+                         Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
+                         my career. Also comfortable applying various machine learning algorithms.
+                    </p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="content">
+                    <h1>Computer Vision</h1>
+                    <p> 
+                        Some experience with Computer Vision through machine learning-based work. Created projects using TensorFlow and Keras
+                        such as a plagiarism finder. Also worked with computer vision through a software engineering internship at KBR in 
+                        Summer 2021. A large portion of this project was to analyze a corpus of documents using both Computer Vision and 
+                        Natural Language Processing.
+                    </p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="content">
+                    <h1>Web Development</h1>
+                    <p> 
+                        Proficient in web development technologies such as JavaScript, HTML, CSS, and frameworks such as React and Django.
+                        Created a few web applications on the side along with class assignments. Also work with web development for my 
+                        current position as a Software Engineer at the Daily Bruin. I specifically work on UCLA's BruinWalk website, where I
+                        have primarily worked on frontend development to deploy a redesign of the site.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="experiences">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <ul>
+            <li>
+                <div class="timeline-item">
+                <h3 class="date">STEP Intern</h3>
+                <h1>Google</h1>
+                <p>Incoming intern at Google for the Student Training in Engineering Program.</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-item">
+                <h3 class="date">Software Engineer</h3>
+                <h1>Daily Bruin</h1>
+                <p>Worked with the Bruinwalk department to deploy a website remodel to the site where students review professors.
+                    Utilized Django, JavaScript, and other web application frameworks for frontend site development.</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-item">
+                <h3 class="date">Software Engineer Intern</h3>
+                <h1>KBR, Inc.</h1>
+                <p>Analyzed model performance and text classification results through confusion matrices, heatmaps, and ROC curves.
+                    Implemented a deep neural network, naive bayes, and regression model for classification to a 99.99% accuracy.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-item">
+                <h3 class="date">Freelance Developer</h3>
+                <h1>Kahului Elementary School</h1>
+                <p>Developed a full-stack web app using speech recognition to test counting skills from 1-100 on 29 kindergarteners.
+                    Validated and incremented correct input in 1100 ms. Stored accounts in a database, retrieved data within 402 ms.
+                    </p>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </div>
 
     <div class="slide-container swiper">
         <h2>My Work</h2>
@@ -167,10 +245,24 @@
         <div class="swiper-pagination"></div>
     </div>
 
+    <footer>
+        <ul class="social-list">
+            <li class="social-list__item"><a href="mailto:dpayba01@gmail.com" class="social-list__link">
+                <img src="images/gmail.png" width="50px" max_height="100%">
+            </a></li>
+            <li class="social-list__item"><a class="social-list__link"
+                href="https://github.com/dpayba" target="_blank">
+                <img src="images/github.png" width="50px" max_height="100%">
+            </a></li>
+            <li class="social-list__item"><a class="social-list__link"
+                href="https://www.linkedin.com/in/dane-payba/" target="_blank">
+                <img src="images/linkedin.png" width="50px" max_height="100%">
+            </a></li>
+        </ul>
+    </footer>
 </body>
 
 <script src="js/swiper-bundle.min.js"></script>
-
 <script src="js/script.js"></script>
   
 </html>
