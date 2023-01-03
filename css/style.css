@@ -313,10 +313,6 @@ body {
 
 }
 
-/* .interests .img {
-  width: 70px !important;
-} */
-
 .box {
   width: 269px;
   padding: 15px;
@@ -476,6 +472,81 @@ body {
   .timeline ul li:nth-child(3) {animation: loadLeft 2.1s ease-in;}
   .timeline ul li:nth-child(4) {animation: loadRight 2.4s ease-in;}
 
+
+/* SKILLS */
+.skills-bar {
+  width: 600px;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  margin: 100px auto;
+  font-family: var(--ff-primary);
+}
+
+.skills-bar h2 {
+  text-align: center;
+}
+
+.skills-bar .bar {
+  margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+  margin-top: 0px;
+}
+
+.skills-bar .bar .info span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05), 0px 1px rgba(255,255,255,0.8);
+  border-radius: 10px; 
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.bar .progress-line span {
+  height: 100%;
+  width: 80%;
+  background: var(--clr-taupe);
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-line.cpp span {
+  width: 90%;
+}
+
+.progress-line.python span {
+  width: 95%;
+}
+
+.progress-line.java span {
+  width: 82%;
+}
+
+.progress-line.javascript span {
+  width: 73%;
+}
+
+.progress-line.go span {
+  width: 69%;
+}
 
 /* MY WORK */
 .slide-container {
