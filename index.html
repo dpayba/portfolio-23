@@ -6,20 +6,40 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
 </head>
 
 <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
         <a href="#work">Work</a>
         <a href="#projects">Projects</a>
         <a class="active" href="#home">Home</a>
-    </div>
+    </div> -->
+    <nav>
+        <div class="logo"><h1> </h1></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experiences">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github"></i>
+            </span>
+        </ul>
+    </nav>
+
+
     <img src="images/beach_1900.png" alt="Desktop Image" class="desktop">
     <img src="images/beach_mobile.png" alt="Mobile Image" class="mobile">
     <div class="landing-page">
-        <img src="images/portrait.png" alt="Portrait">
+        <img src="images/portrait.png" alt="Portrait" class="landing-image">
         <div class="text">
             <p>Hello, I'm</p>
             <h1>DANE PAYBA</h1>
@@ -28,48 +48,42 @@
         </div>
     </div>
 
-    <section class="abt">
+    <section class="abt" id="about">
         <div class="about-image">
             <img src="images/dane2.jpg" alt="" class="about-img">
         </div>
         <p>
-            Hi there! My name is Dane Payba and I am a computer science student at the University of California, Los Angeles (UCLA) with a strong foundation in machine learning, artificial intelligence, and web development. 
-            I am projected in languages such as Python, C++, and Java and have experience with various technologies including TensorFlow, MongoDB, and Kubernetes. <br>
-            I have gained valuable experience through internships at companies such as Google, KBR Inc, and Daily Bruin, where I have had the opportunity to develop software for scheduling tasks, implement methods for data retrieval, and create website redesigns. 
-            In my current role as an incoming software engineering intern at Google, I am excited to continue learning and growing in my career.
-        <br>
-            In addition to my professional experience, I am passionate about using my projects to make a positive impact and have participated in extracurricular activities such as organizing robotics courses for elementary school students and managing multiple student-led projects.
-        <br>
-            I have also received recognition for my work, including being awarded the Hawaii Society of Professional Engineers Scholar in 2020 and placing first in the United States Congressional App Challenge in 2018.
-       <br>
-            Thank you for considering my profile. Please feel free to reach out if you would like to connect or learn more about my education and experience.
+            Hi there! My name is Dane Payba and I am a computer science student at UCLA with a strong foundation in machine learning, artificial intelligence, and web development. 
+        <br><br>
+            I have valuable work experience through internships at companies such as Google, KBR Inc, and Daily Bruin, where I have had the opportunity to develop scheduling software, machine learning models, and web applications. 
+        <br><br>
+            I have also received recognition for my work, including being awarded the Hawaii Society of Professional Engineers Scholar and placing first in the United States Congressional App Challenge.
+       <br><br>
+            Please feel free to reach out if you would like to connect or learn more about my experiences, thanks!
           </p>
     </section>
 
     
     <section class="interests-body">
-        <h2>Fields of Interest</h1>
+        <h2>Fields of Interest</h2>
             <div class="interests">
         
             <div class="box box1">
                 <div class="content">
                     <h1>Machine Learning</h1>
                     <p> 
-                         Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
-                         Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
-                         Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
-                         my career. Also comfortable applying various machine learning algorithms.
+                         Experienced through personal projects, workshops, internships and work experiences.
+                         Utilize Python programming and tools such as TensorFlow, Keras, Pandas, and Numpy.
+                         Worked with different types of neural networks throughout my career.
                     </p>
                 </div>
             </div>
             <div class="box box2">
                 <div class="content">
-                    <h1>Computer Vision</h1>
+                    <h1>Artificial Intelligence</h1>
                     <p> 
-                        Some experience with Computer Vision through machine learning-based work. Created projects using TensorFlow and Keras
-                        such as a plagiarism finder. Also worked with computer vision through a software engineering internship at KBR in 
-                        Summer 2021. A large portion of this project was to analyze a corpus of documents using both Computer Vision and 
-                        Natural Language Processing.
+                        Background foundation through a software engineering internship at KBR in Summer 2021. 
+                        Also competed in MIT BattleCode 2021 & 2022, placing 21/510 teams of students and developers worldwide. 
                     </p>
                 </div>
             </div>
@@ -77,20 +91,25 @@
                 <div class="content">
                     <h1>Web Development</h1>
                     <p> 
-                        Proficient in web development technologies such as JavaScript, HTML, CSS, and frameworks such as React and Django.
-                        Created a few web applications on the side along with class assignments. Also work with web development for my 
-                        current position as a Software Engineer at the Daily Bruin. I specifically work on UCLA's BruinWalk website, where I
-                        have primarily worked on frontend development to deploy a redesign of the site.
+                        Proficient in JavaScript, HTML, CSS, and frameworks such as React, Express, Django.
+                        Created multiple side projects along with main work as a software engineer for the Daily Bruin.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="experiences">
+    <div class="experiences" id="experiences">
         <h2>Work Experience</h2>
         <div class="timeline">
             <ul>
+            <li>
+                <div class="timeline-item">
+                <h3 class="date">Software Engineer Intern</h3>
+                <h1>Google</h1>
+                <p>Incoming software engineering intern for Summer 2023.</p>
+                </div>
+            </li>
             <li>
                 <div class="timeline-item">
                 <h3 class="date">STEP Intern</h3>
@@ -132,12 +151,6 @@
         <h2> Languages</h2>
         <div class="bar">
             <div class="info">
-                <span>C++</span>
-            </div>
-            <div class="progress-line cpp"><span></span></div>
-        </div>
-        <div class="bar">
-            <div class="info">
                 <span>Python</span>
             </div>
             <div class="progress-line python"><span></span></div>
@@ -150,9 +163,9 @@
         </div>
         <div class="bar">
             <div class="info">
-                <span>JavaScript</span>
+                <span>C++</span>
             </div>
-            <div class="progress-line javascript"><span></span></div>
+            <div class="progress-line cpp"><span></span></div>
         </div>
         <div class="bar">
             <div class="info">
@@ -160,10 +173,16 @@
             </div>
             <div class="progress-line go"><span></span></div>
         </div>
+        <div class="bar">
+            <div class="info">
+                <span>JavaScript</span>
+            </div>
+            <div class="progress-line javascript"><span></span></div>
+        </div>
     </div>
 
-    <div class="slide-container swiper">
-        <h2>My Work</h2>
+    <div class="slide-container swiper" id="projects">
+        <h2 class="work-title">My Work</h2>
         <div class="slide-content ">
             <div class="card-wrapper swiper-wrapper">
                 <div class="card swiper-slide">
@@ -171,20 +190,18 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="images/dane2.jpg" alt="" class="card-img">
+                            <img src="images/coming_soon.png" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
                         <h2 class="project">AI Plagiarism Scanner</h2>
                         <p class="description">
-                            Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
-                            Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
-                            Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
-                            my career. Also comfortable applying various machine learning algorithms.
+                            Built a neural network to read 2 images of handwritten text and detect plagiarism if present using TensorFlow.
+                            Improved model to read single words to 98% accuracy, lines to 67% accuracy, and plagiarism to a 76% accuracy.
                         </p>
 
-                        <button class="slider-button">View More</button>
+                        <button class="slider-button">Github</button>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -192,20 +209,18 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="images/dane2.jpg" alt="" class="card-img">
+                            <img src="images/coming_soon.png" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
                         <h2 class="project">VideoJam</h2>
                         <p class="description">
-                            Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
-                            Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
-                            Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
-                            my career. Also comfortable applying various machine learning algorithms.
+                            Produced a client-server video chat app in React JS where users can search for songs and follow on-screen lyrics. 
+                            Processed songs within 900 ms and video connection latency of 1700 ms through WebRTC and Spotify Web APIs
                         </p>
 
-                        <button class="slider-button">View More</button>
+                        <button class="slider-button">Github</button>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -213,20 +228,18 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="images/dane2.jpg" alt="" class="card-img">
+                            <img src="images/coming_soon.png" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
                         <h2 class="project">A* Pathfinder</h2>
                         <p class="description">
-                            Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
-                            Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
-                            Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
-                            my career. Also comfortable applying various machine learning algorithms.
+                            Developed a Tangent Bug / A* pathfinding algorithm with a limited bytecode constraint for the MIT AI competition. 
+                            Worked with 2 other developers over 2 months to place 21/510 teams of MIT students and developers worldwide.
                         </p>
 
-                        <button class="slider-button">Arduino Drag Race System</button>
+                        <button class="slider-button">Github</button>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -234,20 +247,18 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="images/dane2.jpg" alt="" class="card-img">
+                            <img src="images/coming_soon.png" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
                         <h2 class="project">PhotoPhinder</h2>
                         <p class="description">
-                            Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
-                            Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
-                            Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
-                            my career. Also comfortable applying various machine learning algorithms.
+                            Developed an app that allows photographers to show off their work and chat with potential clients.
+                            Allows customers to browse photos taken by real photographers with the ability to connect and set up photoshoots with them.
                         </p>
 
-                        <button class="slider-button">View More</button>
+                        <button class="slider-button">Github</button>
                     </div>
                 </div>
                 <div class="card swiper-slide">
@@ -255,20 +266,37 @@
                         <span class="overlay"></span>
 
                         <div class="card-image">
-                            <img src="images/dane2.jpg" alt="" class="card-img">
+                            <img src="images/coming_soon.png" alt="" class="card-img">
                         </div>
                     </div>
 
                     <div class="card-content">
                         <h2 class="project">Shell Text Editor</h2>
                         <p class="description">
-                            Experienced with Machine Learning through personal projects, workshops, internships and work experiences.
-                            Very comfortable with Python programming and utilizing tools such as TensorFlow, Keras, Pandas, and Numpy.
-                            Worked with different types of neural networks such as convolutional, artificial, and deep networks throughout
-                            my career. Also comfortable applying various machine learning algorithms.
+                            Text editor that integrates the use of various data structures and algorithms fundamentals in C++.
+                            Supports real-time spell checking, misspelled word suggestions, file operations, and keyboard shortcuts / hotkeys.
                         </p>
 
-                        <button class="slider-button">View More</button>
+                        <button class="slider-button">Github</button>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="images/coming_soon.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="project">Drag Race System</h2>
+                        <p class="description">
+                            Developed a drag race system to track times of different positions on each lane and the winner of each race. 
+                            Constructed using multiple Arduino’s and electronic circuitry. Precise to the nearest hundredth of a second.
+                        </p>
+
+                        <button class="slider-button">Github</button>
                     </div>
                 </div>
             </div>
@@ -297,6 +325,8 @@
 </body>
 
 <script src="js/swiper-bundle.min.js"></script>
+<script src="js/navbar.js"></script>
 <script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/f5af1dc936.js" crossorigin="anonymous"></script>
   
 </html>
