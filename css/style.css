@@ -145,7 +145,7 @@ nav .logo {
   cursor: pointer;
   text-transform: uppercase;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   nav .mainMenu {
     height: 100vh;
     position: fixed;
@@ -199,6 +199,12 @@ nav .logo {
     border-radius: 50%;
 }
 
+.landing-page.active{
+  animation: typeIn 2s steps(28) forwards;
+}
+@keyframes typeIn {
+  to { width: 28ch; }
+}
 
 
 .btnalt {
