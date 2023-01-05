@@ -309,9 +309,16 @@ nav .logo {
     opacity: 1;
     flex: 1;
     margin-left: 20px;
-  animation: loadRight 1.5s ease-in;
   line-height: 2;
+  animation: loadRight 1.5s ease-in; 
+
   }
+
+  .abt p.in-view {
+    animation: loadRight 1.5s ease-in; 
+
+  }
+
   .abt p:after {
     transform: translatey(0px);
     animation: float2 5s ease-in-out infinite;
